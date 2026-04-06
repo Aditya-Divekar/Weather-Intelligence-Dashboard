@@ -1,7 +1,3 @@
-Here is a **clean, copy-paste README.md** for your GitHub 👇
-
----
-
 # 📊 Multi-City Weather Intelligence Dashboard
 
 ## 🔹 Overview
@@ -127,7 +123,3 @@ Data includes:
 ## 🔹 Conclusion
 
 This project demonstrates end-to-end data analysis skills, from API data extraction and transformation to building an interactive dashboard for real-world decision-making.
-
----
-
-✅ Just copy → paste into README.md → upload 🚀
