@@ -1,98 +1,133 @@
-📊 Multi-City Weather Intelligence Dashboard
-🔹 Overview
+Here is a **clean, copy-paste README.md** for your GitHub 👇
 
-This project is a Power BI Weather Dashboard built using real-time data from a weather API.
+---
 
-It provides insights into:
+# 📊 Multi-City Weather Intelligence Dashboard
 
-Current weather conditions
-7-day forecast trends
-Rain probability
-Air Quality Index (AQI)
-Multi-city comparison
+## 🔹 Overview
 
-The dashboard covers 6 Indian cities:
-Pune, Bangalore, Hyderabad, Noida, Jaipur, and Aurangabad.
+This project is a Power BI dashboard built using real-time weather data from an API. It provides a centralized view to analyze and compare weather conditions across multiple cities.
 
-🔹 Problem Statement
+The dashboard covers 6 cities:
 
-Weather data is often scattered and difficult to compare across cities.
+* Pune
+* Bangalore
+* Hyderabad
+* Noida
+* Jaipur
+* Aurangabad
 
-This project solves that by creating a centralized dashboard that helps users:
+---
 
-Understand weather trends
-Compare cities
-Make better decisions
-🔹 Data Source
+## 🔹 Problem Statement
+
+Weather data is often scattered and difficult to compare.
+This project solves that by creating a single dashboard where users can easily understand weather trends, rain probability, and air quality.
+
+---
+
+## 🔹 Data Source
 
 API Used:
+[http://api.weatherapi.com/v1/forecast.json](http://api.weatherapi.com/v1/forecast.json)
 
-http://api.weatherapi.com/v1/forecast.json
+Data includes:
 
-Data extracted:
+* Current weather
+* 10-day forecast
+* Hourly data
 
-Current weather
-Forecast (10 days)
-Hourly data
-🔹 Data Processing
-Converted JSON API data into tables using Power Query
-Cleaned null values and unnecessary columns
-Created structured datasets:
-Current
-Forecast_day
-Forecast_hour
-Location
-🔹 Data Model
-Built a star schema model
-Location table connected to:
-Current
-Forecast_day
-Forecast_hour
+---
 
-This allows dynamic filtering based on selected city.
+## 🔹 Data Processing
 
-🔹 Dashboard Features
-🌡 Current weather summary
-☀️ 7-day forecast cards with icons
-📈 Temperature trend (line chart)
-🌧 Chance of rain (percentage bar chart)
-🌫 Air Quality Index with color indicators
-🌅 Sunrise & Sunset timing
-📊 Additional metrics (Humidity, Wind, UV, etc.)
-🏙 Multi-city comparison
-🔹 Key Insights
-Temperature is stable in cities like Pune and Bangalore
-Hyderabad shows higher temperature trends
-High rain probability across multiple days
-AQI varies significantly (Noida = Hazardous)
-Slight temperature drop mid-week
-🔹 Business Use
-Travel planning
-Logistics & delivery decisions
-Health monitoring (AQI)
-City comparison
-🔹 Tools Used
-Power BI
-Power Query
-DAX
-Weather API
-🔹 Dashboard Preview
+* Converted JSON data into tables using Power Query
+* Cleaned null and unnecessary values
+* Created structured datasets:
 
-(Add your screenshots here 👇)
+  * Current
+  * Forecast_day
+  * Forecast_hour
+  * Location
 
-![Dashboard]("C:\Users\Aditya\OneDrive\Documents\ADITYA DIVEKAR\PROJECTS\POWER_BI\4.Weather_Forcast_Dashboard\Screenshot 2026-04-05 193251.png")
+---
 
+## 🔹 Data Model
 
-🔹 Challenges
-Handling nested JSON data
-Managing null values
-Creating proper relationships
-Writing DAX for AQI color logic
-🔹 Conclusion
+* Built a star-schema model
+* Location table connected to:
 
-This project shows my ability to:
+  * Current
+  * Forecast_day
+  * Forecast_hour
+* Enables dynamic filtering based on selected city
 
-Work with real-time API data
-Clean and transform data
-Build data models
-Create interactive dashboards
+---
+
+## 🔹 Dashboard Features
+
+* 🌡 Current weather summary
+* ☀️ 7-day forecast cards with icons
+* 📈 Temperature trend (line chart)
+* 🌧 Chance of rain (percentage bar chart)
+* 🌫 Air Quality Index (AQI) with color indicators
+* 🌅 Sunrise & Sunset timing
+* 📊 Additional metrics (Humidity, Wind, Pressure, UV, etc.)
+* 🏙 Multi-city comparison
+
+---
+
+## 🔹 Key Insights
+
+* Stable temperature in cities like Pune and Bangalore
+* Higher temperature variation in Hyderabad
+* High rain probability across multiple days
+* AQI varies significantly (Noida shows hazardous levels)
+* Slight temperature drop mid-week
+
+---
+
+## 🔹 Business Use
+
+* Travel planning
+* Logistics and delivery planning
+* Health monitoring using AQI
+* City comparison
+
+---
+
+## 🔹 Tools Used
+
+* Power BI
+* Power Query
+* DAX
+* Weather API
+
+---
+
+## 🔹 Dashboard Preview
+
+(Add your images here)
+
+```markdown
+![Dashboard](Images/dashboard_overview.png)
+```
+
+---
+
+## 🔹 Challenges
+
+* Handling nested JSON data
+* Managing null values
+* Creating relationships between datasets
+* Writing DAX for calculations and formatting
+
+---
+
+## 🔹 Conclusion
+
+This project demonstrates end-to-end data analysis skills, from API data extraction and transformation to building an interactive dashboard for real-world decision-making.
+
+---
+
+✅ Just copy → paste into README.md → upload 🚀
