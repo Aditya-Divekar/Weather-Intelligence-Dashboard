@@ -101,16 +101,6 @@ Data includes:
 
 ---
 
-## 🔹 Dashboard Preview
-
-(Add your images here)
-
-```markdown
-![Dashboard](Images/dashboard_overview.png)
-```
-
----
-
 ## 🔹 Challenges
 
 * Handling nested JSON data
