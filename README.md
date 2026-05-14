@@ -102,7 +102,6 @@ Data includes:
 
 ## 🔹 Challenges
 
-* Handling nested JSON data
 * Managing null values
 * Creating relationships between datasets
 * Writing DAX for calculations and formatting
