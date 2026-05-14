@@ -37,7 +37,6 @@ Data includes:
 
 ## 🔹 Data Processing
 
-* Converted JSON data into tables using Power Query
 * Cleaned null and unnecessary values
 * Created structured datasets:
 
